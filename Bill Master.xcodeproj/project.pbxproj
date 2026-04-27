@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		658C6AE12F9F1BEE0095FCE4 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 658C6AE02F9F1BEE0095FCE4 /* ComposableArchitecture */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		65C87B932F9774F2002419F8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,25 +28,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		65C87B832F9774EF002419F8 /* BillMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BillMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		65C87B922F9774F2002419F8 /* BillMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BillMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		65C87B9C2F9774F2002419F8 /* BillMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BillMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C87B832F9774EF002419F8 /* Bill Master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bill Master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C87B922F9774F2002419F8 /* Bill MasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bill MasterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C87B9C2F9774F2002419F8 /* Bill MasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bill MasterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		65C87B852F9774EF002419F8 /* BillMaster */ = {
+		65C87B852F9774EF002419F8 /* Bill Master */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = BillMaster;
+			path = "Bill Master";
 			sourceTree = "<group>";
 		};
-		65C87B952F9774F2002419F8 /* BillMasterTests */ = {
+		65C87B952F9774F2002419F8 /* Bill MasterTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = BillMasterTests;
+			path = "Bill MasterTests";
 			sourceTree = "<group>";
 		};
-		65C87B9F2F9774F2002419F8 /* BillMasterUITests */ = {
+		65C87B9F2F9774F2002419F8 /* Bill MasterUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = BillMasterUITests;
+			path = "Bill MasterUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				658C6AE12F9F1BEE0095FCE4 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,9 +80,9 @@
 		65C87B7A2F9774EF002419F8 = {
 			isa = PBXGroup;
 			children = (
-				65C87B852F9774EF002419F8 /* BillMaster */,
-				65C87B952F9774F2002419F8 /* BillMasterTests */,
-				65C87B9F2F9774F2002419F8 /* BillMasterUITests */,
+				65C87B852F9774EF002419F8 /* Bill Master */,
+				65C87B952F9774F2002419F8 /* Bill MasterTests */,
+				65C87B9F2F9774F2002419F8 /* Bill MasterUITests */,
 				65C87B842F9774EF002419F8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +90,9 @@
 		65C87B842F9774EF002419F8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				65C87B832F9774EF002419F8 /* BillMaster.app */,
-				65C87B922F9774F2002419F8 /* BillMasterTests.xctest */,
-				65C87B9C2F9774F2002419F8 /* BillMasterUITests.xctest */,
+				65C87B832F9774EF002419F8 /* Bill Master.app */,
+				65C87B922F9774F2002419F8 /* Bill MasterTests.xctest */,
+				65C87B9C2F9774F2002419F8 /* Bill MasterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +100,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		65C87B822F9774EF002419F8 /* BillMaster */ = {
+		65C87B822F9774EF002419F8 /* Bill Master */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65C87BA62F9774F2002419F8 /* Build configuration list for PBXNativeTarget "BillMaster" */;
+			buildConfigurationList = 65C87BA62F9774F2002419F8 /* Build configuration list for PBXNativeTarget "Bill Master" */;
 			buildPhases = (
 				65C87B7F2F9774EF002419F8 /* Sources */,
 				65C87B802F9774EF002419F8 /* Frameworks */,
@@ -108,18 +113,19 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				65C87B852F9774EF002419F8 /* BillMaster */,
+				65C87B852F9774EF002419F8 /* Bill Master */,
 			);
-			name = BillMaster;
+			name = "Bill Master";
 			packageProductDependencies = (
+				658C6AE02F9F1BEE0095FCE4 /* ComposableArchitecture */,
 			);
 			productName = BillMaster;
-			productReference = 65C87B832F9774EF002419F8 /* BillMaster.app */;
+			productReference = 65C87B832F9774EF002419F8 /* Bill Master.app */;
 			productType = "com.apple.product-type.application";
 		};
-		65C87B912F9774F2002419F8 /* BillMasterTests */ = {
+		65C87B912F9774F2002419F8 /* Bill MasterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65C87BA92F9774F2002419F8 /* Build configuration list for PBXNativeTarget "BillMasterTests" */;
+			buildConfigurationList = 65C87BA92F9774F2002419F8 /* Build configuration list for PBXNativeTarget "Bill MasterTests" */;
 			buildPhases = (
 				65C87B8E2F9774F2002419F8 /* Sources */,
 				65C87B8F2F9774F2002419F8 /* Frameworks */,
@@ -131,18 +137,18 @@
 				65C87B942F9774F2002419F8 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				65C87B952F9774F2002419F8 /* BillMasterTests */,
+				65C87B952F9774F2002419F8 /* Bill MasterTests */,
 			);
-			name = BillMasterTests;
+			name = "Bill MasterTests";
 			packageProductDependencies = (
 			);
 			productName = BillMasterTests;
-			productReference = 65C87B922F9774F2002419F8 /* BillMasterTests.xctest */;
+			productReference = 65C87B922F9774F2002419F8 /* Bill MasterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		65C87B9B2F9774F2002419F8 /* BillMasterUITests */ = {
+		65C87B9B2F9774F2002419F8 /* Bill MasterUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65C87BAC2F9774F2002419F8 /* Build configuration list for PBXNativeTarget "BillMasterUITests" */;
+			buildConfigurationList = 65C87BAC2F9774F2002419F8 /* Build configuration list for PBXNativeTarget "Bill MasterUITests" */;
 			buildPhases = (
 				65C87B982F9774F2002419F8 /* Sources */,
 				65C87B992F9774F2002419F8 /* Frameworks */,
@@ -154,13 +160,13 @@
 				65C87B9E2F9774F2002419F8 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				65C87B9F2F9774F2002419F8 /* BillMasterUITests */,
+				65C87B9F2F9774F2002419F8 /* Bill MasterUITests */,
 			);
-			name = BillMasterUITests;
+			name = "Bill MasterUITests";
 			packageProductDependencies = (
 			);
 			productName = BillMasterUITests;
-			productReference = 65C87B9C2F9774F2002419F8 /* BillMasterUITests.xctest */;
+			productReference = 65C87B9C2F9774F2002419F8 /* Bill MasterUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +192,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 65C87B7E2F9774EF002419F8 /* Build configuration list for PBXProject "BillMaster" */;
+			buildConfigurationList = 65C87B7E2F9774EF002419F8 /* Build configuration list for PBXProject "Bill Master" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -195,14 +201,17 @@
 			);
 			mainGroup = 65C87B7A2F9774EF002419F8;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				658C6ADF2F9F1BEE0095FCE4 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 65C87B842F9774EF002419F8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				65C87B822F9774EF002419F8 /* BillMaster */,
-				65C87B912F9774F2002419F8 /* BillMasterTests */,
-				65C87B9B2F9774F2002419F8 /* BillMasterUITests */,
+				65C87B822F9774EF002419F8 /* Bill Master */,
+				65C87B912F9774F2002419F8 /* Bill MasterTests */,
+				65C87B9B2F9774F2002419F8 /* Bill MasterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +267,12 @@
 /* Begin PBXTargetDependency section */
 		65C87B942F9774F2002419F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 65C87B822F9774EF002419F8 /* BillMaster */;
+			target = 65C87B822F9774EF002419F8 /* Bill Master */;
 			targetProxy = 65C87B932F9774F2002419F8 /* PBXContainerItemProxy */;
 		};
 		65C87B9E2F9774F2002419F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 65C87B822F9774EF002419F8 /* BillMaster */;
+			target = 65C87B822F9774EF002419F8 /* Bill Master */;
 			targetProxy = 65C87B9D2F9774F2002419F8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -322,7 +331,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -380,7 +389,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -417,7 +426,7 @@
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 5.10;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -449,7 +458,7 @@
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 5.10;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -470,9 +479,9 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 5.10;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BillMaster.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BillMaster";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bill Master.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bill Master";
 			};
 			name = Debug;
 		};
@@ -492,9 +501,9 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 5.10;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BillMaster.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BillMaster";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bill Master.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bill Master";
 			};
 			name = Release;
 		};
@@ -512,7 +521,7 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 5.10;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = BillMaster;
 			};
@@ -532,7 +541,7 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 5.10;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = BillMaster;
 			};
@@ -541,7 +550,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		65C87B7E2F9774EF002419F8 /* Build configuration list for PBXProject "BillMaster" */ = {
+		65C87B7E2F9774EF002419F8 /* Build configuration list for PBXProject "Bill Master" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65C87BA42F9774F2002419F8 /* Debug */,
@@ -550,7 +559,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65C87BA62F9774F2002419F8 /* Build configuration list for PBXNativeTarget "BillMaster" */ = {
+		65C87BA62F9774F2002419F8 /* Build configuration list for PBXNativeTarget "Bill Master" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65C87BA72F9774F2002419F8 /* Debug */,
@@ -559,7 +568,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65C87BA92F9774F2002419F8 /* Build configuration list for PBXNativeTarget "BillMasterTests" */ = {
+		65C87BA92F9774F2002419F8 /* Build configuration list for PBXNativeTarget "Bill MasterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65C87BAA2F9774F2002419F8 /* Debug */,
@@ -568,7 +577,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65C87BAC2F9774F2002419F8 /* Build configuration list for PBXNativeTarget "BillMasterUITests" */ = {
+		65C87BAC2F9774F2002419F8 /* Build configuration list for PBXNativeTarget "Bill MasterUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65C87BAD2F9774F2002419F8 /* Debug */,
@@ -578,6 +587,27 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		658C6ADF2F9F1BEE0095FCE4 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.25.5;
+			};
+			traits = (
+			);
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		658C6AE02F9F1BEE0095FCE4 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 658C6ADF2F9F1BEE0095FCE4 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 65C87B7B2F9774EF002419F8 /* Project object */;
 }

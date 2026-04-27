@@ -1,0 +1,58 @@
+[
+  {
+    "id": "A1B2C3D4-E5F6-47A8-B9C0-D1E2F3A4B5C6",
+    "name": "Gemini Advanced",
+    "amount": 309000,
+    "currency": "IDR",
+    "frequency": "quarterly",
+    "category": "software",
+    "nextBillingDate": "2026-05-02T00:00:00Z",
+    "paymentMethod": {
+      "id": "11111111-2222-3333-4444-555555555555",
+      "name": "BCA Credit Card",
+      "type": "creditCard"
+    }
+  },
+  {
+    "id": "F6E5D4C3-B2A1-8A74-0C9B-6C5B4A3F2E1D",
+    "name": "Spotify Family",
+    "amount": 17500,
+    "currency": "IDR",
+    "frequency": "monthly",
+    "category": "entertainment",
+    "nextBillingDate": "2026-04-28T00:00:00Z",
+    "paymentMethod": {
+      "id": "22222222-3333-4444-5555-666666666666",
+      "name": "Transfer to Budi",
+      "type": "bankTransfer"
+    }
+  },
+  {
+    "id": "9A8B7C6D-5E4F-3A2B-1C0D-E9F8A7B6C5D4",
+    "name": "Apple iCloud+",
+    "amount": 15000,
+    "currency": "IDR",
+    "frequency": "monthly",
+    "category": "utility",
+    "nextBillingDate": "2026-05-10T00:00:00Z",
+    "paymentMethod": {
+      "id": "33333333-4444-5555-6666-777777777777",
+      "name": "GoPay",
+      "type": "digitalWallet"
+    }
+  },
+  {
+    "id": "1A2B3C4D-5E6F-7A8B-9C0D-1E2F3A4B5C6D",
+    "name": "Netflix Premium",
+    "amount": 186000,
+    "currency": "IDR",
+    "frequency": "monthly",
+    "category": "entertainment",
+    "nextBillingDate": "2026-05-15T00:00:00Z",
+    "paymentMethod": {
+      "id": "11111111-2222-3333-4444-555555555555",
+      "name": "BCA Credit Card",
+      "type": "creditCard"
+    }
+  }
+]
