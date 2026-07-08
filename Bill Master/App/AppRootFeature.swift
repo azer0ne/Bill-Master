@@ -15,7 +15,7 @@ struct AppRootFeature {
         
         // Child feature states
         var dashboard = DashboardFeature.State()
-        var methods = MethodsFeature.State()
+        var paymentMethods = PaymentMethodsFeature.State()
         var account = AccountFeature.State()
     }
     
@@ -30,7 +30,7 @@ struct AppRootFeature {
         
         // Child feature actions
         case dashboard(DashboardFeature.Action)
-        case methods(MethodsFeature.Action)
+        case paymentMethods(PaymentMethodsFeature.Action)
         case account(AccountFeature.Action)
     }
     
@@ -38,8 +38,8 @@ struct AppRootFeature {
         Scope(state: \.dashboard, action: \.dashboard) {
             DashboardFeature()
         }
-        Scope(state: \.methods, action: \.methods) {
-            MethodsFeature()
+        Scope(state: \.paymentMethods, action: \.paymentMethods) {
+            PaymentMethodsFeature()
         }
         Scope(state: \.account, action: \.account) {
             AccountFeature()
@@ -52,7 +52,7 @@ struct AppRootFeature {
                 return .none
                 
             // Ignore child actions at the root level unless cross-feature communication is needed
-            case .dashboard, .methods, .account:
+            case .dashboard, .paymentMethods, .account:
                 return .none
             }
         }

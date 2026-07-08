@@ -1,5 +1,5 @@
 //
-//  MethodsView.swift
+//  PaymentMethodsView.swift
 //  BillMaster
 //
 //  Created by Reza on 27/04/26.
@@ -8,8 +8,8 @@
 import ComposableArchitecture
 import SwiftUI
 
-struct MethodsView: View {
-    let store: StoreOf<MethodsFeature>
+struct PaymentMethodsView: View {
+    let store: StoreOf<PaymentMethodsFeature>
     var body: some View {
         Text("Methods")
     }

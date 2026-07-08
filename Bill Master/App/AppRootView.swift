@@ -21,8 +21,8 @@ struct AppRootView: View {
             }
             .tag(AppRootFeature.Tab.dashboard)
             
-            MethodsView(
-                store: store.scope(state: \.methods, action: \.methods)
+            PaymentMethodsView(
+                store: store.scope(state: \.paymentMethods, action: \.paymentMethods)
             )
             .tabItem {
                 Label("Methods", systemImage: "wallet.pass")

@@ -1,5 +1,5 @@
 //
-//  MethodsFeature.swift
+//  PaymentMethodsFeature.swift
 //  BillMaster
 //
 //  Created by Reza on 21/04/26.
@@ -9,7 +9,7 @@ import ComposableArchitecture
 import Foundation
 
 @Reducer
-struct MethodsFeature {
+struct PaymentMethodsFeature {
     
     @ObservableState
     struct State: Equatable {

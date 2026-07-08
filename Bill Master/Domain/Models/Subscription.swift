@@ -7,25 +7,27 @@
 
 import Foundation
 
-public struct Subscription: Equatable, Identifiable {
+nonisolated public struct Subscription: Equatable, Identifiable, Sendable {
     public let id: UUID
     public var name: String
     public var amount: Double
     public var currency: Currency
     public var frequency: BillingFrequency
     public var category: SubscriptionCategory
-    public var nextBillingDate: Date // Use an absolute date instead of an Int for the day
-    public var paymentMethod: PaymentMethod? // Optional payment method relation
+    public var nextBillingDate: Date
+    public var paymentMethod: PaymentMethod?
+    public var autoRenew: Bool
     
     public init(
         id: UUID = UUID(), 
         name: String, 
         amount: Double, 
-        currency: Currency = .IDR, 
+        currency: Currency = .idr,
         frequency: BillingFrequency = .monthly,
         category: SubscriptionCategory,
         nextBillingDate: Date,
-        paymentMethod: PaymentMethod? = nil
+        paymentMethod: PaymentMethod? = nil,
+        autoRenew: Bool = true
     ) {
         self.id = id
         self.name = name
@@ -35,17 +37,22 @@ public struct Subscription: Equatable, Identifiable {
         self.category = category
         self.nextBillingDate = nextBillingDate
         self.paymentMethod = paymentMethod
+        self.autoRenew = autoRenew
     }
 }
 
-public enum Currency: String, Codable {
-    case IDR, USD, SGD, EUR, GBP
+nonisolated public enum Currency: String, Codable, Sendable, CaseIterable {
+    case idr = "IDR"
+    case usd = "USD"
+    case sgd = "SGD"
+    case eur = "EUR"
+    case gbp = "GBP"
 }
 
-public enum BillingFrequency: String, Codable {
-    case monthly, quarterly, yearly
+nonisolated public enum BillingFrequency: String, Codable, Sendable, CaseIterable {
+    case weekly, monthly, quarterly, yearly
 }
 
-public enum SubscriptionCategory: String, Codable {
+nonisolated public enum SubscriptionCategory: String, Codable, Sendable, CaseIterable {
     case entertainment, utility, software, other
 }

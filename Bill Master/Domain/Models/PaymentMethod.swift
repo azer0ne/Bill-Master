@@ -7,9 +7,9 @@
 
 import Foundation
 
-public struct PaymentMethod: Equatable, Identifiable {
+nonisolated public struct PaymentMethod: Equatable, Identifiable, Sendable {
     public let id: UUID
-    public var name: String // "GoPay", "BCA Card", "Personal to Budi"
+    public var name: String
     public var type: PaymentType
     
     public init(id: UUID = UUID(), name: String, type: PaymentType) {
@@ -19,6 +19,6 @@ public struct PaymentMethod: Equatable, Identifiable {
     }
 }
 
-public enum PaymentType: String, Codable {
+nonisolated public enum PaymentType: String, Codable, Sendable, CaseIterable {
     case creditCard, debitCard, digitalWallet, bankTransfer
 }
